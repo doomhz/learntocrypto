@@ -1,0 +1,20 @@
+{
+  "name": "learntocrypto",
+  "version": "0.0.1",
+  "description": "Learn to crypto workshop",
+  "main": "index.js",
+  "dependencies": {
+    "duplex-json-stream": "^1.0.1",
+    "siginfo": "^1.0.1",
+    "sodium-native": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "bank": "node src/bank.js",
+    "teller": "node src/teller.js"
+  },
+  "repository": {},
+  "keywords": [],
+  "license": "ISC",
+  "homepage": "https://github.com/sodium-friends/learntocrypto#readme"
+}
